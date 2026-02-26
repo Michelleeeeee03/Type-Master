@@ -32,7 +32,7 @@ correct_words_percent = (correct/total_words) * 100
 wrong_words_percent = (wrong/total_words) * 100
 
 print(f"\nYou got {correct_words_percent:.1f}% correct words and {wrong_words_percent:.1f}% wrong.")
-if correct_words_perceig < wrong_words_percent:
+if correct_words_percent < wrong_words_percent:
     print("\nYou loseeee hahahahha")
     print("Better luck next time")
 else:
